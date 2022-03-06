@@ -10,7 +10,6 @@ body {
 }
 
 header {
-    background-color: darkgrey;
     color: whitesmoke;
     padding-bottom: 3rem;
     padding-left: 1rem;
@@ -26,11 +25,13 @@ main {
     margin-right: 0.5rem;
     padding-left: 1rem;
     padding-top: 2rem;
+    border: 2px solid black;
 }
 
 nav {
     background-color: lightgrey;
     min-width: 20%;
+    border: 2px solid black;
 }
 
 div>* {
@@ -46,8 +47,9 @@ ul {
 
 ul li {
     margin: 1rem;
-    border: 1px solid black;
-    min-width: 80%;
+    border: 2px solid black;
+    min-width: 75%;
+    min-height: 20%;
     text-align: center;
     padding: 0.5rem;
     background-color: lightsalmon;
@@ -56,5 +58,5 @@ ul li {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: dimgrey;
+    background-color: dimgray;
 }
