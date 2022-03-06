@@ -1,0 +1,60 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.25;
+    background-color: darkgrey;
+}
+
+header {
+    background-color: darkgrey;
+    color: whitesmoke;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    background-color: whitesmoke;
+    margin-right: 0.5rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+nav {
+    background-color: lightgrey;
+    min-width: 20%;
+}
+
+div>* {
+    padding-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li {
+    margin: 1rem;
+    border: 1px solid black;
+    min-width: 80%;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: lightsalmon;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: dimgrey;
+}
